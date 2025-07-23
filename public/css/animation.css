@@ -1,0 +1,15 @@
+ h1{
+    font-family: cursive;
+     font-size: 4rem;
+     font-weight: bold;
+ }
+
+ .dynamic-word {
+     color: #e67e22;
+     transition: opacity 0.5s ease;
+     display: inline-block;
+ }
+
+ .fade-out {
+     opacity: 0;
+ }

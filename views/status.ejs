@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Status</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(/img/bannert.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .welcomecard{
+            border: 2px solid orangered;
+            background-color: antiquewhite;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="welcomecard" style="text-align:center; padding: 20px;">
+        <h1>Hello <%= reservation.name %>!</h1>
+        <p>Your reservation for <strong>
+                <%= reservation.date %>
+            </strong> at <strong>
+                <%= reservation.timing %>
+            </strong> is currently:</p>
+        <h2 style="color: orangered;">
+            <%= reservation.status.toUpperCase() %>
+        </h2>
+        <p>You Can check the status at the same page after sometime</p>
+        <p>we will also update status & your table No. on whatsapp soon!</p>
+    </div>
+</body>
+
+</html>
