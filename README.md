@@ -68,8 +68,8 @@ npm install
 
 ## Environment Variables
 
-- **MONGO_URI**: mongodb+srv://lordvivaan461_db_user:L2buQkjExV356n9J@restroapp.kmvnnlj.mongodb.net/?retryWrites=true&w=majority&appName=RestroApp
-- **PORT**: 3000
+- **MONGO_URI**: `mongodb+srv://lordvivaan461_db_user:L2buQkjExV356n9J@restroapp.kmvnnlj.mongodb.net/?retryWrites=true&w=majority&appName=RestroApp`
+- **PORT**: `3000`
 
 ---
 
