@@ -1,8 +1,8 @@
 {
+  "type": "module",
   "name": "restrorestro",
   "version": "1.0.0",
   "description": "A Restaurant app",
-  "type": "module",
   "engines": {
     "node": "20.x"
   },
@@ -18,7 +18,6 @@
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "express-session": "^1.18.2",
-    "mongodb": "^6.10.0",
-    "mongoose": "^8.19.0"
+    "mongoose": "^7.6.1"
   }
 }
