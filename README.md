@@ -1,33 +1,40 @@
 # RestroRestro
 
-**Version:** 1.0.0  
-**Author:** Vivaan  
+## Live Demo
+Access the deployed application here: [**RestroRestro Live**]( https://restrorestroapp.onrender.com)
 
-**Description:**  
-Full-stack restaurant reservation web application built with Node.js, Express, MongoDB, and EJS.
+## Project Overview
+**RestroRestro** is a **full-stack restaurant reservation web application** that allows users to book tables, check reservation status, and provides an admin dashboard to manage all bookings efficiently. The application is designed to streamline restaurant reservations, providing both customers and restaurant staff with a smooth, interactive, and modern experience.
+
+This project is built using **Node.js** and **Express** for the backend, **EJS** for dynamic frontend rendering, and **MongoDB Atlas** for a scalable database. Session-based authentication secures the admin panel while keeping the user experience seamless.
 
 ---
 
 ## Features
 
 ### User Features
-- Make new reservations with details: name, email, contact, number of persons, timing, food preference, and occasion.
-- Check reservation status by email or booking ID.
+- Make **new reservations** with details such as:
+  - Name, Email, Contact Number
+  - Number of persons, Timing
+  - Food preference, Occasion
+- Check reservation status by **email or booking ID**
+- Responsive and interactive UI with smooth animations
 
 ### Admin Features
-- Admin login with session-based authentication.
-- View all reservations in a dashboard.
-- Accept or reject reservations.
-- Secure logout functionality.
+- Secure **login with session-based authentication**
+- View all reservations on a **dashboard**
+- Accept or reject reservations in one click
+- Secure logout to protect admin sessions
 
-### UI Features
-- Responsive design for desktop, tablet, and mobile.
-- Smooth animations and modern UI layout.
-- Glassy navbar, hero section, and interactive menus.
+### UI/UX Features
+- Fully **responsive design** for desktop, tablet, and mobile
+- Modern layout with **glassy navbar**, hero section, and interactive menus
+- Smooth page animations for better user experience
 
 ---
 
 ## Tech Stack
+
 - **Backend:** Node.js, Express
 - **Frontend:** EJS, HTML, CSS, Bootstrap
 - **Database:** MongoDB Atlas
@@ -35,6 +42,9 @@ Full-stack restaurant reservation web application built with Node.js, Express, M
 - **Deployment:** Render.com
 
 ---
+
+## Folder Structure
+
 
 ## Folder Structure
 
@@ -88,7 +98,7 @@ npm install
 2. Build command: `npm install`
 3. Start command: `node app.js`
 4. Add environment variables (`MONGO_URI`, `PORT`) in Render dashboard.
-5. Deploy and access the live URL: https://restrorestroapp.onrender.com/
+5. Deploy and access the live URL.
 
 ---
 
