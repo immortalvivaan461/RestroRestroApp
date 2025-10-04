@@ -15,7 +15,7 @@ const bookSchema = new mongoose.Schema({
         enum: ['pending', 'accepted', 'rejected'],
         default: 'pending'
     }
-});
+}, { timestamps: true });
 
 const BOOK = mongoose.model("BOOK", bookSchema);
 export default BOOK;

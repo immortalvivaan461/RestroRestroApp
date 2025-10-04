@@ -14,6 +14,17 @@
 
 }
 
+.navbar-toggler {
+    border-color: white;
+    /* optional: border visible */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+
 .nav-link {
     font-size: clamp(0.875rem, 2.5vw, 1.25rem);
     font-weight: 500;
@@ -407,10 +418,22 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 104, 29);
-    color: gray;
+    color: black;
+}
+
+footer > h5{
+    font-size: 15px;
+    justify-self: center;
 }
 
 @media (max-width: 768px) {
+
+    .navbar-nav {
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
     .jumboheading {
         width: 90vw;
     }
