@@ -37,4 +37,17 @@ Full-stack restaurant reservation web application built with Node.js, Express, M
 ---
 
 ## Folder Structure
-
+root:
+    - models/
+      - book.js
+    - public/
+      - CSS, JS, images
+    - views/
+      - home.ejs
+      - status.ejs
+      - admin-login.ejs
+      - admin-dashboard.ejs
+    - .env
+    - app.js
+    - package.json
+    - README.md
