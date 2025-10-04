@@ -88,7 +88,7 @@ npm install
 2. Build command: `npm install`
 3. Start command: `node app.js`
 4. Add environment variables (`MONGO_URI`, `PORT`) in Render dashboard.
-5. Deploy and access the live URL.
+5. Deploy and access the live URL: https://restrorestroapp.onrender.com/
 
 ---
 
