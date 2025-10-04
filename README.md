@@ -45,9 +45,6 @@ This project is built using **Node.js** and **Express** for the backend, **EJS**
 
 ## Folder Structure
 
-
-## Folder Structure
-
 - RestroRestro/
   - models/
     - book.js
